@@ -2,7 +2,8 @@ package com.logicalstatements.loops;
 
 public class TestLpDemo1 {
 
-//WAP to print 0 to 10 numbers
+     //WAP to print 0 to 10 numbers
+	// WAP to print 10 to 0 numbers
 	public static void main(String[] args) {
 		System.out.println("main method started!!");
 
