@@ -2,6 +2,7 @@ package com.logicalstatements.loops;
 
 import java.util.Scanner;
 
+//fibbinacci series
 public class TestLpDemo7 {
 
 	public static void main(String[] args) {
