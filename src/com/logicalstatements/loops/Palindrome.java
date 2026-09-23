@@ -15,25 +15,25 @@ public class Palindrome {
 	}
 
 	static boolean palin(int n) {
-		int sum=0;
-		int r=0;
-		int temp=n;
-		
-		while(n>0) {
-			r=n%10;
-			n=n/10;
-			sum=sum*10+r;
-			
+		int sum = 0;
+		int r = 0;
+		int temp = n;
+
+		while (n > 0) {
+			r = n % 10;
+			n = n / 10;
+			sum = sum * 10 + r;
+
 		}
-		if(temp==sum) {
+		if (temp == sum) {
 			System.out.println("this number is palindrome");
-		}else {
+		} else {
 			System.out.println("this number is not a palindrome");
-		
-	}
+
+		}
 		boolean status = false;
 		return status;
-		
 
-}
+	}
+
 }
