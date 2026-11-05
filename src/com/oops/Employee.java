@@ -3,7 +3,6 @@ package com.oops;
 //DTO : Data Transfer Object 
 //POJO : Plain Old Java Object 
 //Data Model 
-
 public class Employee {
 
 	// private variables
